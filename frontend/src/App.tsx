@@ -277,7 +277,7 @@ function LandingTeamSection() {
           <p className="landing-team-role">Founder & Fullstack Engineer</p>
           <p className="landing-team-bio">
             Art3mis designs, audits, and ships Move-based smart contracts across Sui
-            and Aptos, with a focus on secure DeFi and on-chain legal workflows.
+            Ecosystem, with a focus on secure DeFi and on-chain legal workflows.
             SuiSign combines that engineering background with product thinking to
             make document signing feel simple and trustworthy.
           </p>
