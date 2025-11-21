@@ -21,7 +21,7 @@ import './styles/global.css'; // old dark background + hero-card styles
 import './styles/landing.css'; // landing-only styles (all classes prefixed landing-)
 
 /* ----------------------------------------------------
- * Shared header – EXACTLY like the old design
+ * Shared header 
  * ---------------------------------------------------- */
 function AppHeader() {
   return (
@@ -29,9 +29,11 @@ function AppHeader() {
       <Flex position="sticky" py="2" justify="between" align="center">
                 <div className="header-logo">
           <img src={OtterLogo} alt="SuiSign Logo" className="header-logo-img" />
+          <Link to="/" style={{ textDecoration: "none" }}>
         <h1 className="h-bubbly" style={{ fontSize: 60, margin: 0 }}>
           SuiSign
         </h1>
+        </Link>
         </div>
         <Box>
           <ConnectButton />
@@ -266,7 +268,7 @@ function LandingTeamSection() {
       <div className="landing-team-wrapper">
         <div className="landing-team-card">
           <img
-            src={ArtImg} // <- replace with your actual image path
+            src={ArtImg} 
             alt="Art3mis"
             className="landing-team-avatar"
           />
@@ -287,7 +289,7 @@ function LandingTeamSection() {
 
 
 /* ----------------------------------------------------
- * SuiSign dapp shell – behaves exactly like old App
+ * SuiSign dapp shell
  * ---------------------------------------------------- */
 
 function SuiSignShell() {

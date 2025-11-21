@@ -458,6 +458,13 @@ body{
   margin: 0;
 }
 
+.header-logo h1 {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-background-clip: unset !important;
+}
+
 /* make sure the app can sit above the bg and the page fills the viewport */
 html, body, #root { height: 100%; }
 body { margin: 0; overflow-x: hidden; }
